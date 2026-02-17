@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+char c;
+int islowercsevowel,isuppercasevowel;
+printf("enter the alphabet:");
+scanf("%c",&c);
+isuppercasevowel=(c=='A'||c=='E'||C=='I'||c=='O'||c=='U');
+islowercasevowel=(c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
+if(isuppercasevowel||islowercasevowel)
+printf("%cis vowel.",c);
+else printf("%cis a consonant",c);
+
+
+
+
+return 0;
+}
